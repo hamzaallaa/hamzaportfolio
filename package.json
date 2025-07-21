@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://hamzaallaa.github.io/hamzaportfolio",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev --turbopack",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
