@@ -1,0 +1,11 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="200" fill="#e0e0e0"/>
+  
+  <!-- Stylized person silhouette -->
+  <circle cx="200" cy="150" r="70" fill="#a0a0a0"/>
+  <path d="M200 230 Q 110 230 100 320 L 300 320 Q 290 230 200 230 Z" fill="#a0a0a0"/>
+  
+  <!-- Text indicating this is a placeholder -->
+  <text x="200" y="350" font-family="Arial" font-size="16" text-anchor="middle" fill="#606060">Profile Photo</text>
+</svg>
